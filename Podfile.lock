@@ -1,0 +1,206 @@
+PODS:
+  - AFHTTPRequestOperationLogger (1.0.0):
+    - AFNetworking (~> 1.0)
+  - AFNetworking (1.3.4)
+  - AFOAuth1Client (0.3.3):
+    - AFNetworking (~> 1.3)
+  - AFOAuth2Client (0.1.2):
+    - AFNetworking (~> 1.3)
+  - AQSWhatsAppActivity (0.1.0)
+  - Bolts (1.1.4)
+  - Branch (0.5.3)
+  - CRToast (0.0.7)
+  - Facebook-iOS-SDK (3.21.1):
+    - Bolts (~> 1.0)
+  - FlurrySDK (4.3.2):
+    - FlurrySDK/FlurrySDK (= 4.3.2)
+  - FlurrySDK/FlurrySDK (4.3.2)
+  - FormatterKit (1.8.0):
+    - FormatterKit/AddressFormatter (= 1.8.0)
+    - FormatterKit/ArrayFormatter (= 1.8.0)
+    - FormatterKit/ColorFormatter (= 1.8.0)
+    - FormatterKit/LocationFormatter (= 1.8.0)
+    - FormatterKit/NameFormatter (= 1.8.0)
+    - FormatterKit/OrdinalNumberFormatter (= 1.8.0)
+    - FormatterKit/TimeIntervalFormatter (= 1.8.0)
+    - FormatterKit/UnitOfInformationFormatter (= 1.8.0)
+    - FormatterKit/URLRequestFormatter (= 1.8.0)
+  - FormatterKit/AddressFormatter (1.8.0)
+  - FormatterKit/ArrayFormatter (1.8.0)
+  - FormatterKit/ColorFormatter (1.8.0)
+  - FormatterKit/LocationFormatter (1.8.0)
+  - FormatterKit/NameFormatter (1.8.0)
+  - FormatterKit/OrdinalNumberFormatter (1.8.0)
+  - FormatterKit/TimeIntervalFormatter (1.8.0)
+  - FormatterKit/UnitOfInformationFormatter (1.8.0)
+  - FormatterKit/URLRequestFormatter (1.8.0)
+  - GoogleAnalytics-iOS-SDK (3.10):
+    - GoogleAnalytics-iOS-SDK/Core (= 3.10)
+  - GoogleAnalytics-iOS-SDK/Core (3.10)
+  - googleplus-ios-sdk (1.7.1)
+  - HCYoutubeParser (0.0.2)
+  - ISO8601DateFormatterValueTransformer (0.5.0):
+    - RKValueTransformers (~> 1.0.0)
+  - JRSwizzle (1.0)
+  - libwebp (0.4.3):
+    - libwebp/core (= 0.4.3)
+    - libwebp/dec (= 0.4.3)
+    - libwebp/demux (= 0.4.3)
+    - libwebp/dsp (= 0.4.3)
+    - libwebp/enc (= 0.4.3)
+    - libwebp/mux (= 0.4.3)
+    - libwebp/utils (= 0.4.3)
+    - libwebp/webp (= 0.4.3)
+  - libwebp/core (0.4.3):
+    - libwebp/webp
+  - libwebp/dec (0.4.3):
+    - libwebp/core
+  - libwebp/demux (0.4.3):
+    - libwebp/core
+  - libwebp/dsp (0.4.3):
+    - libwebp/core
+  - libwebp/enc (0.4.3):
+    - libwebp/core
+  - libwebp/mux (0.4.3):
+    - libwebp/core
+  - libwebp/utils (0.4.3):
+    - libwebp/core
+  - libwebp/webp (0.4.3)
+  - LVTwitterOAuthClient (0.0.1):
+    - OAuthCore
+  - MBProgressHUD (0.9.1)
+  - NSData+Base64 (1.0.0)
+  - OAuthCore (0.0.1):
+    - NSData+Base64
+  - OpenXMSDK (2.5.0.r1)
+  - pop (1.0.7)
+  - RestKit (0.22.0):
+    - RestKit/Core (= 0.22.0)
+  - RestKit/Core (0.22.0):
+    - RestKit/CoreData
+    - RestKit/Network
+    - RestKit/ObjectMapping
+  - RestKit/CoreData (0.22.0)
+  - RestKit/Network (0.22.0):
+    - AFNetworking (~> 1.3.0)
+    - RestKit/ObjectMapping
+    - RestKit/Support
+    - SOCKit
+  - RestKit/ObjectMapping (0.22.0):
+    - ISO8601DateFormatterValueTransformer (~> 0.5.0)
+    - RestKit/Support
+    - RKValueTransformers (~> 1.0.1)
+  - RestKit/Support (0.22.0):
+    - TransitionKit (= 2.0.0)
+  - RKValueTransformers (1.0.1)
+  - SDWebImage (3.7.2):
+    - SDWebImage/Core (= 3.7.2)
+  - SDWebImage/Core (3.7.2)
+  - SDWebImage/WebP (3.7.2):
+    - libwebp
+    - SDWebImage/Core
+  - SOCKit (1.1)
+  - Tapstream (2.8.6)
+  - TransitionKit (2.0.0)
+  - TTOpenInAppActivity (1.0.1)
+  - TTTAttributedLabel (1.9.5)
+  - uservoice-iphone-sdk (3.2.3)
+
+DEPENDENCIES:
+  - AFHTTPRequestOperationLogger (~> 1.0.0)
+  - AFOAuth1Client (~> 0.3.3)
+  - AFOAuth2Client (from `https://github.com/jesseditson/AFOAuth2Client.git`, branch
+    `working`)
+  - AQSWhatsAppActivity (from `git@github.com:weheartit/AQSWhatsAppActivity.git`,
+    branch `master`)
+  - Branch
+  - CRToast (~> 0.0.7)
+  - Facebook-iOS-SDK (~> 3.21.1)
+  - FlurrySDK (~> 4.3.0)
+  - FormatterKit (~> 1.8.0)
+  - GoogleAnalytics-iOS-SDK (~> 3.10)
+  - googleplus-ios-sdk (~> 1.7.1)
+  - HCYoutubeParser (~> 0.0.2)
+  - JRSwizzle (~> 1.0)
+  - LVTwitterOAuthClient (~> 0.0.1)
+  - MBProgressHUD (from `git@github.com:jdg/MBProgressHUD.git`, branch `master`)
+  - OpenXMSDK (= 2.5.0.r1)
+  - pop
+  - RestKit (~> 0.22.0)
+  - SDWebImage (from `git@github.com:rs/SDWebImage.git`, branch `master`)
+  - SDWebImage/WebP (from `git@github.com:rs/SDWebImage.git`, branch `master`)
+  - Tapstream (~> 2.8)
+  - TTOpenInAppActivity (from `https://github.com/jesseditson/TTOpenInAppActivity.git`,
+    branch `ios_8_image_sharing`)
+  - TTTAttributedLabel (~> 1.9.5)
+  - uservoice-iphone-sdk (~> 3.0)
+
+EXTERNAL SOURCES:
+  AFOAuth2Client:
+    :branch: working
+    :git: https://github.com/jesseditson/AFOAuth2Client.git
+  AQSWhatsAppActivity:
+    :branch: master
+    :git: git@github.com:weheartit/AQSWhatsAppActivity.git
+  MBProgressHUD:
+    :branch: master
+    :git: git@github.com:jdg/MBProgressHUD.git
+  SDWebImage:
+    :branch: master
+    :git: git@github.com:rs/SDWebImage.git
+  TTOpenInAppActivity:
+    :branch: ios_8_image_sharing
+    :git: https://github.com/jesseditson/TTOpenInAppActivity.git
+
+CHECKOUT OPTIONS:
+  AFOAuth2Client:
+    :commit: 570f6e5665c901989f39510a9ba910d99a1988e7
+    :git: https://github.com/jesseditson/AFOAuth2Client.git
+  AQSWhatsAppActivity:
+    :commit: 9d57f213bd817da32c582fef9b62ca2d3397f0a8
+    :git: git@github.com:weheartit/AQSWhatsAppActivity.git
+  MBProgressHUD:
+    :commit: ac7a7a8c5e2339c8db93b310b349d9776a077932
+    :git: git@github.com:jdg/MBProgressHUD.git
+  SDWebImage:
+    :commit: 704c630567577690fb8745b22e6179990fc461f8
+    :git: git@github.com:rs/SDWebImage.git
+  TTOpenInAppActivity:
+    :commit: 0cffe23e1a2d82cb9d4a7ca6a984f0801289cbc7
+    :git: https://github.com/jesseditson/TTOpenInAppActivity.git
+
+SPEC CHECKSUMS:
+  AFHTTPRequestOperationLogger: 251332cf89812162df96843ca51a76107fb95a94
+  AFNetworking: cf8e418e16f0c9c7e5c3150d019a3c679d015018
+  AFOAuth1Client: 7bac5f9f00a2a97d99d4cb9942a09d0812c5e5b7
+  AFOAuth2Client: ca9490461c522b6c4be37a26a3366c8d91856519
+  AQSWhatsAppActivity: 7eccd32485b6f24e7316495fee156adfe05a6e61
+  Bolts: f8e2f94edbf9fec7bb8de5ecaaa3aa6b7de6f64e
+  Branch: 1fa8fa22e0bd6af54e619329b9fa11b77b70c917
+  CRToast: 99a28f4387def43b439ad88f957ce31357ff7373
+  Facebook-iOS-SDK: 20e413a6e34f9155d7a34484e0c08247fae3e47f
+  FlurrySDK: 9f09e57ee8f01296bd547950433384da192ea680
+  FormatterKit: bddde83e054edf9d9ee14f9de3b3a5103db256f4
+  GoogleAnalytics-iOS-SDK: 4f98a376c1d61e6ac4ca47951655820314856eef
+  googleplus-ios-sdk: 065d9135061a5f84c07656a68ced48336408fe35
+  HCYoutubeParser: cdfef410cd2ce6ee538a07ee4a1c9ed29069f544
+  ISO8601DateFormatterValueTransformer: a48b7632ae5c07b2f0ff1ffae11938733d62c8b9
+  JRSwizzle: dd5ead5d913a0f29e7f558200165849f006bb1e3
+  libwebp: 360ed8bc4ec8da413f07f84071e7f5a5c67a285d
+  LVTwitterOAuthClient: a8a181580614f5f8ded93fc100b1aefa22704d7c
+  MBProgressHUD: c47f2c166c126cf2ce36498d80f33e754d4e93ad
+  NSData+Base64: 4e84902c4db907a15673474677e57763ef3903e4
+  OAuthCore: 43dce261db846a1fe20234d95654257e00e78581
+  OpenXMSDK: b9ba38ad752b4f9f297e914f173d78860e0c8a08
+  pop: 628ffc631644601567ee8bfaaaea493ebd7d0923
+  RestKit: 148fe32e4b1474cbfcf9074c793977d5e9fdc8fa
+  RKValueTransformers: 127d6267755844f48eaf4fc560208ca19d336641
+  SDWebImage: 71b7cdc1d1721d6a82ed62889030225f2c249e29
+  SOCKit: c7376ac262bea9115b8f749358f762522a47d392
+  Tapstream: 1eef04c1b18aad8f64c906f9ebcd65125eeb6c29
+  TransitionKit: c150629869b0eab9d270f914aad2d1a088a8c19d
+  TTOpenInAppActivity: c67af5911e9dbb9d23d52397a617a653b1a2aee2
+  TTTAttributedLabel: a3547ed4b3197a294c15882e4c9ee338a7e78c90
+  uservoice-iphone-sdk: 349d9ef36d3c43939d28390b9e86bb32b65fe983
+
+COCOAPODS: 0.36.1

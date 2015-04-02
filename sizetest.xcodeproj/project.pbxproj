@@ -11,9 +11,17 @@
 		4DF18ECF1ACCC6E7009FD54D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF18ECE1ACCC6E7009FD54D /* AppDelegate.m */; };
 		4DF18ED21ACCC6E7009FD54D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF18ED11ACCC6E7009FD54D /* ViewController.m */; };
 		4DF18ED51ACCC6E7009FD54D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DF18ED31ACCC6E7009FD54D /* Main.storyboard */; };
-		4DF18ED71ACCC6E7009FD54D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DF18ED61ACCC6E7009FD54D /* Images.xcassets */; };
+		4DF18ED71ACCC6E7009FD54D /* Imaoldges.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DF18ED61ACCC6E7009FD54D /* Imaoldges.xcassets */; };
 		4DF18EDA1ACCC6E7009FD54D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DF18ED81ACCC6E7009FD54D /* LaunchScreen.xib */; };
 		4DF18EE61ACCC6E7009FD54D /* sizetestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF18EE51ACCC6E7009FD54D /* sizetestTests.m */; };
+		4DF18EF81ACCCB78009FD54D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DF18EF71ACCCB78009FD54D /* CoreGraphics.framework */; };
+		4DF18EFA1ACCCBD1009FD54D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DF18EF91ACCCBD1009FD54D /* UIKit.framework */; };
+		4DF18EFD1ACCCC00009FD54D /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DF18EFB1ACCCC00009FD54D /* CoreFoundation.framework */; };
+		4DF18EFE1ACCCC00009FD54D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DF18EFC1ACCCC00009FD54D /* Foundation.framework */; };
+		4DF18F001ACCCC08009FD54D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DF18EFF1ACCCC08009FD54D /* AVFoundation.framework */; };
+		4DF18F021ACDB78B009FD54D /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DF18F011ACDB78B009FD54D /* CoreMedia.framework */; };
+		4DF18F041ACDB98A009FD54D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DF18F031ACDB98A009FD54D /* Images.xcassets */; };
+		D817EA280DB856ADA634DCD8 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1C9D0AA6BDEDD1EFBC1CEEE /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,11 +43,25 @@
 		4DF18ED01ACCC6E7009FD54D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		4DF18ED11ACCC6E7009FD54D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		4DF18ED41ACCC6E7009FD54D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4DF18ED61ACCC6E7009FD54D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4DF18ED61ACCC6E7009FD54D /* Imaoldges.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Imaoldges.xcassets; sourceTree = "<group>"; };
 		4DF18ED91ACCC6E7009FD54D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		4DF18EDF1ACCC6E7009FD54D /* sizetestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sizetestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DF18EE41ACCC6E7009FD54D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4DF18EE51ACCC6E7009FD54D /* sizetestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sizetestTests.m; sourceTree = "<group>"; };
+		4DF18EEF1ACCCB21009FD54D /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
+		4DF18EF11ACCCB2A009FD54D /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		4DF18EF31ACCCB2F009FD54D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		4DF18EF51ACCCB34009FD54D /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		4DF18EF71ACCCB78009FD54D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4DF18EF91ACCCBD1009FD54D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4DF18EFB1ACCCC00009FD54D /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		4DF18EFC1ACCCC00009FD54D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4DF18EFF1ACCCC08009FD54D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		4DF18F011ACDB78B009FD54D /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		4DF18F031ACDB98A009FD54D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		77116B0FE326E1BF9CD078AB /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		7EA59A1C91094593883FA105 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		D1C9D0AA6BDEDD1EFBC1CEEE /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +69,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DF18F021ACDB78B009FD54D /* CoreMedia.framework in Frameworks */,
+				4DF18F001ACCCC08009FD54D /* AVFoundation.framework in Frameworks */,
+				4DF18EFD1ACCCC00009FD54D /* CoreFoundation.framework in Frameworks */,
+				4DF18EFE1ACCCC00009FD54D /* Foundation.framework in Frameworks */,
+				4DF18EFA1ACCCBD1009FD54D /* UIKit.framework in Frameworks */,
+				4DF18EF81ACCCB78009FD54D /* CoreGraphics.framework in Frameworks */,
+				D817EA280DB856ADA634DCD8 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +89,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		45D5524DE9E6362D7889EEA5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7EA59A1C91094593883FA105 /* Pods.debug.xcconfig */,
+				77116B0FE326E1BF9CD078AB /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		4DF18EBD1ACCC6E7009FD54D = {
 			isa = PBXGroup;
 			children = (
 				4DF18EC81ACCC6E7009FD54D /* sizetest */,
 				4DF18EE21ACCC6E7009FD54D /* sizetestTests */,
 				4DF18EC71ACCC6E7009FD54D /* Products */,
+				45D5524DE9E6362D7889EEA5 /* Pods */,
+				A9608BD4E7B1A3ED6483D17C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -86,7 +126,8 @@
 				4DF18ED01ACCC6E7009FD54D /* ViewController.h */,
 				4DF18ED11ACCC6E7009FD54D /* ViewController.m */,
 				4DF18ED31ACCC6E7009FD54D /* Main.storyboard */,
-				4DF18ED61ACCC6E7009FD54D /* Images.xcassets */,
+				4DF18F031ACDB98A009FD54D /* Images.xcassets */,
+				4DF18ED61ACCC6E7009FD54D /* Imaoldges.xcassets */,
 				4DF18ED81ACCC6E7009FD54D /* LaunchScreen.xib */,
 				4DF18EC91ACCC6E7009FD54D /* Supporting Files */,
 			);
@@ -119,6 +160,24 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		A9608BD4E7B1A3ED6483D17C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4DF18F011ACDB78B009FD54D /* CoreMedia.framework */,
+				4DF18EFF1ACCCC08009FD54D /* AVFoundation.framework */,
+				4DF18EFB1ACCCC00009FD54D /* CoreFoundation.framework */,
+				4DF18EFC1ACCCC00009FD54D /* Foundation.framework */,
+				4DF18EF91ACCCBD1009FD54D /* UIKit.framework */,
+				4DF18EF71ACCCB78009FD54D /* CoreGraphics.framework */,
+				4DF18EF51ACCCB34009FD54D /* Accounts.framework */,
+				4DF18EF31ACCCB2F009FD54D /* SystemConfiguration.framework */,
+				4DF18EF11ACCCB2A009FD54D /* CoreTelephony.framework */,
+				4DF18EEF1ACCCB21009FD54D /* Photos.framework */,
+				D1C9D0AA6BDEDD1EFBC1CEEE /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +185,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4DF18EE91ACCC6E7009FD54D /* Build configuration list for PBXNativeTarget "sizetest" */;
 			buildPhases = (
+				E0DB6FCFA28C6CF0924FF858 /* Check Pods Manifest.lock */,
 				4DF18EC21ACCC6E7009FD54D /* Sources */,
 				4DF18EC31ACCC6E7009FD54D /* Frameworks */,
 				4DF18EC41ACCC6E7009FD54D /* Resources */,
+				82463D1484368E1E9CFF5C66 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -200,8 +261,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DF18ED51ACCC6E7009FD54D /* Main.storyboard in Resources */,
+				4DF18F041ACDB98A009FD54D /* Images.xcassets in Resources */,
 				4DF18EDA1ACCC6E7009FD54D /* LaunchScreen.xib in Resources */,
-				4DF18ED71ACCC6E7009FD54D /* Images.xcassets in Resources */,
+				4DF18ED71ACCC6E7009FD54D /* Imaoldges.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,6 +275,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		82463D1484368E1E9CFF5C66 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0DB6FCFA28C6CF0924FF858 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4DF18EC21ACCC6E7009FD54D /* Sources */ = {
@@ -299,9 +394,10 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 armv7 armv7s";
 			};
 			name = Debug;
 		};
@@ -338,24 +434,30 @@
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s";
 			};
 			name = Release;
 		};
 		4DF18EEA1ACCC6E7009FD54D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EA59A1C91094593883FA105 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = sizetest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		4DF18EEB1ACCC6E7009FD54D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77116B0FE326E1BF9CD078AB /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = sizetest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -414,6 +516,7 @@
 				4DF18EEB1ACCC6E7009FD54D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4DF18EEC1ACCC6E7009FD54D /* Build configuration list for PBXNativeTarget "sizetestTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +525,7 @@
 				4DF18EEE1ACCC6E7009FD54D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
